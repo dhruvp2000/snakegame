@@ -1,0 +1,45 @@
+	#canvas{
+		margin: 0 0 0 450px;
+            padding: 0;
+            background:linear-gradient(135deg,pink,magenta,purple);
+            background-size: 400% 400%;
+            animation: gradient 10s ease-in infinite;
+            overflow: hidden;
+	}
+	@keyframes gradient{
+   
+   0%{
+  
+  background-position: 0% 50%;
+   }
+      50%{
+  
+  background-position: 100% 50%;
+   }
+    100%{
+  
+  background-position: 0% 50%;
+   }
+}
+.text
+         { font-family: "calibri", Garamond, 'Comic Sans MS';
+           animation: text 3s infinite; 
+           font-size: 20px;
+     }
+       
+    @keyframes text{
+        0%{
+            color:black;
+            
+        }
+         33%{
+         	letter-spacing: 5px;
+            color: brown;
+     
+            
+        }
+         67%{
+            color: blue;
+           
+        }
+      }
